@@ -117,10 +117,7 @@ const WritePageMobileStack = ({
                   </option>
                 ))}
               </WritePageMobileSelectInput>
-              <WritePageMobileBodyAddButton
-                name="developerStack"
-                onClick={handleAddStackButtonClick}
-              >
+              <WritePageMobileBodyAddButton name="developerStack">
                 ＋
               </WritePageMobileBodyAddButton>
             </WritePageMobileStackNameBox>
