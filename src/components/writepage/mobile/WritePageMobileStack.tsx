@@ -124,8 +124,6 @@ const WritePageMobileStack = ({
             <WritePageMobileStackSkillBox>
               {developerStack.map((developer: string) => (
                 <SkillButton
-                  key={developer}
-                  name={developer}
                   type="developerStack"
                   setValue={setWriteFormValue}
                 />
