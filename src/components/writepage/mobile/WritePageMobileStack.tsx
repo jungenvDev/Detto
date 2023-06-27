@@ -64,7 +64,6 @@ const WritePageMobileStack = ({
             <WritePageMobileStackSkillBox>
               {plannerStack.map((planner: string) => (
                 <SkillButton
-                  key={planner}
                   name={planner}
                   type="plannerStack"
                   setValue={setWriteFormValue}
