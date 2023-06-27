@@ -51,9 +51,7 @@ const WritePageMobileStack = ({
                 onChange={handleSectionChange}
               >
                 {products.map((product: string) => (
-                  <option key={product} value={product}>
-                    {product}
-                  </option>
+                  <option value={product}>{product}</option>
                 ))}
               </WritePageMobileSelectInput>
               <WritePageMobileBodyAddButton
