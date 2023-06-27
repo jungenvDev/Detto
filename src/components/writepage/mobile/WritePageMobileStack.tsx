@@ -64,7 +64,6 @@ const WritePageMobileStack = ({
             <WritePageMobileStackSkillBox>
               {plannerStack.map((planner: string) => (
                 <SkillButton
-                  key={planner}
                   name={planner}
                   type="plannerStack"
                   setValue={setWriteFormValue}
@@ -118,18 +117,13 @@ const WritePageMobileStack = ({
                   </option>
                 ))}
               </WritePageMobileSelectInput>
-              <WritePageMobileBodyAddButton
-                name="developerStack"
-                onClick={handleAddStackButtonClick}
-              >
+              <WritePageMobileBodyAddButton name="developerStack">
                 ＋
               </WritePageMobileBodyAddButton>
             </WritePageMobileStackNameBox>
             <WritePageMobileStackSkillBox>
               {developerStack.map((developer: string) => (
                 <SkillButton
-                  key={developer}
-                  name={developer}
                   type="developerStack"
                   setValue={setWriteFormValue}
                 />
